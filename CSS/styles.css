@@ -1,0 +1,117 @@
+body{
+  font-family: "Crimson Text", serif;
+}
+
+.nipfa-header-container{
+  padding: 0;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+.nipfa-navbar-bg-color{
+  background-color: #201e1f;
+}
+
+.navbar-brand, .nav-item{
+  text-decoration: none;
+  color: #e6ce74;
+  text-align: center;
+  font-size: 2.75rem;
+  margin: 0;
+  line-height: 0.7;
+}
+
+.navbar-brand:hover{
+  text-decoration: none;
+  color: #e6ce74;
+}
+
+.navbar-brand-affiliate{
+  font-size: 1.5rem;
+}
+
+@media (max-width:900px) {
+  .navbar-brand, .nav-item{
+    font-size: 1.25rem;
+  }
+  .navbar-brand-affiliate{
+    font-size: 0.75rem;
+  }
+}
+
+#nipfa-navbar-brand-logo{
+  padding: 0;
+  display: contents;
+}
+
+.nav-item{
+  font-family: Calibri;
+  font-size: 1.5rem;
+}
+
+.active{
+  color: #fff;
+}
+
+.navbar-toggler{
+  background-color: #e6ce74;
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.nav-item:hover, .nav-link:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+
+.nipfa-col{
+  text-align: center;
+}
+
+.nipfa-contact-container{
+  padding: 3% 5%;
+  position: absolute;
+  top: 100px;
+}
+
+.nipfa-contact-heading{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.75rem;
+  padding: 2%;
+}
+
+.nipfa-contact-address{
+  font-size: 1.25rem;
+}
+
+.nipfa-footer-container{
+  background-color: #201e1f;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  padding: 0;
+  text-align: center;
+}
+
+.nipfa-footer-sub-container{
+  padding-bottom: 40px;
+  position: relative;
+}
+.nipfa-footer-copyright-text, .nipfa-footer-followus-text{
+  color:  #e6ce74;
+  text-align: center;
+}
+
+.nipfa-footer-followus-icon{
+  background-color: #201e1f;
+  color:  #e6ce74;
+  padding: 0 1px;
+}
+
+.nipfa-footer-followus-icon:hover{
+  color: #fff;
+}
